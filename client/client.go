@@ -52,11 +52,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/docker/go-connections/sockets"
+	"github.com/docker/go-connections/tlsconfig"
 	"github.com/ellcrys/docker/api"
 	"github.com/ellcrys/docker/api/types"
 	"github.com/ellcrys/docker/api/types/versions"
-	"github.com/docker/go-connections/sockets"
-	"github.com/docker/go-connections/tlsconfig"
 	"github.com/pkg/errors"
 )
 
@@ -84,6 +84,10 @@ type Client struct {
 	customHTTPHeaders map[string]string
 	// manualOverride is set to true when the version was set by users.
 	manualOverride bool
+}
+
+func (c *Client) SetDockerAPIVersion(version string) {
+	c.version = version
 }
 
 // CheckRedirect specifies the policy for dealing with redirect responses:
