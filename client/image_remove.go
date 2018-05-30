@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/ellcrys/docker/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
+	"github.com/ellcrys/docker/api/types"
 )
 
 // ImageRemove removes an image from the docker host.

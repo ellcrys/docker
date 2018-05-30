@@ -1,4 +1,4 @@
-package store // import "github.com/docker/docker/volume/store"
+package store // import "github.com/ellcrys/docker/volume/store"
 
 import (
 	"errors"
@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/volume"
-	volumedrivers "github.com/docker/docker/volume/drivers"
-	volumetestutils "github.com/docker/docker/volume/testutils"
+	"github.com/ellcrys/docker/volume"
+	volumedrivers "github.com/ellcrys/docker/volume/drivers"
+	volumetestutils "github.com/ellcrys/docker/volume/testutils"
 	"github.com/google/go-cmp/cmp"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"

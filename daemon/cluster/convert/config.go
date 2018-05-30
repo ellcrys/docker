@@ -1,8 +1,8 @@
-package convert // import "github.com/docker/docker/daemon/cluster/convert"
+package convert // import "github.com/ellcrys/docker/daemon/cluster/convert"
 
 import (
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	types "github.com/docker/docker/api/types/swarm"
+	swarmtypes "github.com/ellcrys/docker/api/types/swarm"
+	types "github.com/ellcrys/docker/api/types/swarm"
 	swarmapi "github.com/docker/swarmkit/api"
 	gogotypes "github.com/gogo/protobuf/types"
 )

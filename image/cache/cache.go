@@ -1,4 +1,4 @@
-package cache // import "github.com/docker/docker/image/cache"
+package cache // import "github.com/ellcrys/docker/image/cache"
 
 import (
 	"encoding/json"
@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"strings"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/dockerversion"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/layer"
 	"github.com/pkg/errors"
 )
 

@@ -1,4 +1,4 @@
-package fscache // import "github.com/docker/docker/builder/fscache"
+package fscache // import "github.com/ellcrys/docker/builder/fscache"
 
 import (
 	"context"

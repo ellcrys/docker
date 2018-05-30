@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/ellcrys/docker/client"
 
 import (
 	"bytes"
@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/registry"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/filters"
+	"github.com/ellcrys/docker/api/types/registry"
 )
 
 func TestImageSearchAnyError(t *testing.T) {

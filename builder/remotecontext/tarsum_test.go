@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/ellcrys/docker/builder/remotecontext"
 
 import (
 	"io/ioutil"
@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/ellcrys/docker/builder"
+	"github.com/ellcrys/docker/pkg/archive"
+	"github.com/ellcrys/docker/pkg/reexec"
 	"github.com/gotestyourself/gotestyourself/skip"
 	"github.com/pkg/errors"
 )

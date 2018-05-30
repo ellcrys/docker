@@ -1,10 +1,10 @@
-package swarm // import "github.com/docker/docker/api/types/swarm"
+package swarm // import "github.com/ellcrys/docker/api/types/swarm"
 
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/mount"
 )
 
 // DNSConfig specifies DNS related configurations in resolver configuration file (resolv.conf)

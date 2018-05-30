@@ -1,12 +1,12 @@
-package stream // import "github.com/docker/docker/container/stream"
+package stream // import "github.com/ellcrys/docker/container/stream"
 
 import (
 	"context"
 	"io"
 	"sync"
 
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/term"
+	"github.com/ellcrys/docker/pkg/pools"
+	"github.com/ellcrys/docker/pkg/term"
 	"github.com/sirupsen/logrus"
 )
 

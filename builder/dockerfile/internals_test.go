@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/ellcrys/docker/builder/dockerfile"
 
 import (
 	"fmt"
@@ -6,12 +6,12 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/backend"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/builder"
+	"github.com/ellcrys/docker/builder/remotecontext"
+	"github.com/ellcrys/docker/pkg/archive"
 	"github.com/docker/go-connections/nat"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"

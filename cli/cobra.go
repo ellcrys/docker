@@ -1,9 +1,9 @@
-package cli // import "github.com/docker/docker/cli"
+package cli // import "github.com/ellcrys/docker/cli"
 
 import (
 	"fmt"
 
-	"github.com/docker/docker/pkg/term"
+	"github.com/ellcrys/docker/pkg/term"
 	"github.com/spf13/cobra"
 )
 

@@ -1,4 +1,4 @@
-package fakestorage // import "github.com/docker/docker/internal/test/fakestorage"
+package fakestorage // import "github.com/ellcrys/docker/internal/test/fakestorage"
 
 import (
 	"context"
@@ -11,14 +11,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test"
-	"github.com/docker/docker/internal/test/environment"
-	"github.com/docker/docker/internal/test/fakecontext"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/internal/testutil"
+	"github.com/ellcrys/docker/api/types"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/internal/test"
+	"github.com/ellcrys/docker/internal/test/environment"
+	"github.com/ellcrys/docker/internal/test/fakecontext"
+	"github.com/ellcrys/docker/internal/test/request"
+	"github.com/ellcrys/docker/internal/testutil"
 	"github.com/docker/go-connections/nat"
 	"github.com/gotestyourself/gotestyourself/assert"
 )

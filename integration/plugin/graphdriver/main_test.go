@@ -1,12 +1,12 @@
-package graphdriver // import "github.com/docker/docker/integration/plugin/graphdriver"
+package graphdriver // import "github.com/ellcrys/docker/integration/plugin/graphdriver"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/ellcrys/docker/internal/test/environment"
+	"github.com/ellcrys/docker/pkg/reexec"
 )
 
 var (

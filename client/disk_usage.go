@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/ellcrys/docker/client"
 
 import (
 	"context"
 	"encoding/json"
 	"fmt"
 
-	"github.com/docker/docker/api/types"
+	"github.com/ellcrys/docker/api/types"
 )
 
 // DiskUsage requests the current data usage from the daemon

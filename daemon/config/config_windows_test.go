@@ -1,12 +1,12 @@
 // +build windows
 
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/ellcrys/docker/daemon/config"
 
 import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/docker/docker/opts"
+	"github.com/ellcrys/docker/opts"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 	"github.com/spf13/pflag"

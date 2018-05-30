@@ -1,5 +1,5 @@
 // Package checker provides Docker specific implementations of the go-check.Checker interface.
-package checker // import "github.com/docker/docker/integration-cli/checker"
+package checker // import "github.com/ellcrys/docker/integration-cli/checker"
 
 import (
 	"github.com/go-check/check"

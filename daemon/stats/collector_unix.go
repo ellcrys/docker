@@ -1,6 +1,6 @@
 // +build !windows
 
-package stats // import "github.com/docker/docker/daemon/stats"
+package stats // import "github.com/ellcrys/docker/daemon/stats"
 
 import (
 	"fmt"

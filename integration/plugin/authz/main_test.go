@@ -1,6 +1,6 @@
 // +build !windows
 
-package authz // import "github.com/docker/docker/integration/plugin/authz"
+package authz // import "github.com/ellcrys/docker/integration/plugin/authz"
 
 import (
 	"encoding/json"
@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/internal/test/daemon"
-	"github.com/docker/docker/internal/test/environment"
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/ellcrys/docker/internal/test/daemon"
+	"github.com/ellcrys/docker/internal/test/environment"
+	"github.com/ellcrys/docker/pkg/authorization"
+	"github.com/ellcrys/docker/pkg/plugins"
 	"github.com/gotestyourself/gotestyourself/skip"
 )
 

@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"os"
@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/volume"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"github.com/ellcrys/docker/api/types"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/mount"
+	mounttypes "github.com/ellcrys/docker/api/types/mount"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/volume"
+	volumemounts "github.com/ellcrys/docker/volume/mounts"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

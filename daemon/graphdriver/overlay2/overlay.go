@@ -1,6 +1,6 @@
 // +build linux
 
-package overlay2 // import "github.com/docker/docker/daemon/graphdriver/overlay2"
+package overlay2 // import "github.com/ellcrys/docker/daemon/graphdriver/overlay2"
 
 import (
 	"bufio"
@@ -17,20 +17,20 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/overlayutils"
-	"github.com/docker/docker/daemon/graphdriver/quota"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/fsutils"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/locker"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/daemon/graphdriver"
+	"github.com/ellcrys/docker/daemon/graphdriver/overlayutils"
+	"github.com/ellcrys/docker/daemon/graphdriver/quota"
+	"github.com/ellcrys/docker/pkg/archive"
+	"github.com/ellcrys/docker/pkg/chrootarchive"
+	"github.com/ellcrys/docker/pkg/containerfs"
+	"github.com/ellcrys/docker/pkg/directory"
+	"github.com/ellcrys/docker/pkg/fsutils"
+	"github.com/ellcrys/docker/pkg/idtools"
+	"github.com/ellcrys/docker/pkg/locker"
+	"github.com/ellcrys/docker/pkg/mount"
+	"github.com/ellcrys/docker/pkg/parsers"
+	"github.com/ellcrys/docker/pkg/parsers/kernel"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/docker/go-units"
 	rsystem "github.com/opencontainers/runc/libcontainer/system"
 	"github.com/opencontainers/selinux/go-selinux/label"
@@ -591,7 +591,7 @@ func (d *Driver) Get(id, mountLabel string) (_ containerfs.ContainerFS, retErr e
 	// as of go 1.7. This will be fixed in 1.8 and this block can be
 	// removed when building with 1.8.
 	// See https://github.com/golang/go/commit/1b9499b06989d2831e5b156161d6c07642926ee1
-	// See https://github.com/docker/docker/issues/27384
+	// See https://github.com/ellcrys/docker/issues/27384
 	if pageSize > 4096 {
 		pageSize = 4096
 	}

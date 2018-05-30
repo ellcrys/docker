@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/ellcrys/docker/builder/dockerfile"
 
 import (
 	"errors"
@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/pkg/system"
 )
 
 var pattern = regexp.MustCompile(`^[a-zA-Z]:\.$`)

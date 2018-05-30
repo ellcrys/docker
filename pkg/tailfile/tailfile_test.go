@@ -1,4 +1,4 @@
-package tailfile // import "github.com/docker/docker/pkg/tailfile"
+package tailfile // import "github.com/ellcrys/docker/pkg/tailfile"
 
 import (
 	"io/ioutil"

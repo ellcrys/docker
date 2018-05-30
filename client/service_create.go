@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/ellcrys/docker/client"
 
 import (
 	"context"
@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/swarm"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

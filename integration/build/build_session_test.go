@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	dclient "github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test/fakecontext"
-	"github.com/docker/docker/internal/test/request"
+	dclient "github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/internal/test/fakecontext"
+	"github.com/ellcrys/docker/internal/test/request"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 	"github.com/gotestyourself/gotestyourself/skip"

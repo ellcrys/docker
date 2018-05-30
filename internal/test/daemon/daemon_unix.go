@@ -1,12 +1,12 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/internal/test/daemon"
+package daemon // import "github.com/ellcrys/docker/internal/test/daemon"
 
 import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/internal/test"
+	"github.com/ellcrys/docker/internal/test"
 	"golang.org/x/sys/unix"
 )
 

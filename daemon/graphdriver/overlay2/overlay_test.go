@@ -1,16 +1,16 @@
 // +build linux
 
-package overlay2 // import "github.com/docker/docker/daemon/graphdriver/overlay2"
+package overlay2 // import "github.com/ellcrys/docker/daemon/graphdriver/overlay2"
 
 import (
 	"io/ioutil"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/graphtest"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/ellcrys/docker/daemon/graphdriver"
+	"github.com/ellcrys/docker/daemon/graphdriver/graphtest"
+	"github.com/ellcrys/docker/pkg/archive"
+	"github.com/ellcrys/docker/pkg/reexec"
 )
 
 func init() {

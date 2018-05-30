@@ -1,11 +1,11 @@
-package macvlan // import "github.com/docker/docker/integration/network/macvlan"
+package macvlan // import "github.com/ellcrys/docker/integration/network/macvlan"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/ellcrys/docker/internal/test/environment"
 )
 
 var testEnv *environment.Execution

@@ -1,6 +1,6 @@
 // +build linux
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"io/ioutil"
@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/oci"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/mount"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/daemon/config"
+	"github.com/ellcrys/docker/oci"
+	"github.com/ellcrys/docker/pkg/idtools"
+	"github.com/ellcrys/docker/pkg/mount"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 )
@@ -38,7 +38,7 @@ const mountsFixture = `142 78 0:38 / / rw,relatime - aufs none rw,si=573b861da0b
 158 148 0:35 /docker/5425782a95e643181d8a485a2bab3c0bb21f51d7dfc03511f0e6fbf3f3aa356a /sys/fs/cgroup/systemd rw,nosuid,nodev,noexec,relatime - cgroup systemd rw,name=systemd
 159 142 8:4 /home/mlaventure/gopath /home/mlaventure/gopath rw,relatime - ext4 /dev/disk/by-uuid/d99e196c-1fc4-4b4f-bab9-9962b2b34e99 rw,errors=remount-ro,data=ordered
 160 142 8:4 /var/lib/docker/volumes/9a428b651ee4c538130143cad8d87f603a4bf31b928afe7ff3ecd65480692b35/_data /var/lib/docker rw,relatime - ext4 /dev/disk/by-uuid/d99e196c-1fc4-4b4f-bab9-9962b2b34e99 rw,errors=remount-ro,data=ordered
-164 142 8:4 /home/mlaventure/gopath/src/github.com/docker/docker /go/src/github.com/docker/docker rw,relatime - ext4 /dev/disk/by-uuid/d99e196c-1fc4-4b4f-bab9-9962b2b34e99 rw,errors=remount-ro,data=ordered
+164 142 8:4 /home/mlaventure/gopath/src/github.com/ellcrys/docker /go/src/github.com/ellcrys/docker rw,relatime - ext4 /dev/disk/by-uuid/d99e196c-1fc4-4b4f-bab9-9962b2b34e99 rw,errors=remount-ro,data=ordered
 165 142 8:4 /var/lib/docker/containers/5425782a95e643181d8a485a2bab3c0bb21f51d7dfc03511f0e6fbf3f3aa356a/resolv.conf /etc/resolv.conf rw,relatime - ext4 /dev/disk/by-uuid/d99e196c-1fc4-4b4f-bab9-9962b2b34e99 rw,errors=remount-ro,data=ordered
 166 142 8:4 /var/lib/docker/containers/5425782a95e643181d8a485a2bab3c0bb21f51d7dfc03511f0e6fbf3f3aa356a/hostname /etc/hostname rw,relatime - ext4 /dev/disk/by-uuid/d99e196c-1fc4-4b4f-bab9-9962b2b34e99 rw,errors=remount-ro,data=ordered
 167 142 8:4 /var/lib/docker/containers/5425782a95e643181d8a485a2bab3c0bb21f51d7dfc03511f0e6fbf3f3aa356a/hosts /etc/hosts rw,relatime - ext4 /dev/disk/by-uuid/d99e196c-1fc4-4b4f-bab9-9962b2b34e99 rw,errors=remount-ro,data=ordered

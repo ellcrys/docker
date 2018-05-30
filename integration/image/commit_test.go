@@ -1,13 +1,13 @@
-package image // import "github.com/docker/docker/integration/image"
+package image // import "github.com/ellcrys/docker/integration/image"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/integration/internal/container"
+	"github.com/ellcrys/docker/internal/test/request"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 	"github.com/gotestyourself/gotestyourself/skip"

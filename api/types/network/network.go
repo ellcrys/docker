@@ -1,4 +1,4 @@
-package network // import "github.com/docker/docker/api/types/network"
+package network // import "github.com/ellcrys/docker/api/types/network"
 
 // Address represents an IP address
 type Address struct {

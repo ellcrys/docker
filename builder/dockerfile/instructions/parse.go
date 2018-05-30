@@ -1,4 +1,4 @@
-package instructions // import "github.com/docker/docker/builder/dockerfile/instructions"
+package instructions // import "github.com/ellcrys/docker/builder/dockerfile/instructions"
 
 import (
 	"fmt"
@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/builder/dockerfile/command"
-	"github.com/docker/docker/builder/dockerfile/parser"
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/strslice"
+	"github.com/ellcrys/docker/builder/dockerfile/command"
+	"github.com/ellcrys/docker/builder/dockerfile/parser"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/pkg/errors"
 )
 

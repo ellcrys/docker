@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/cli"
 	"github.com/go-check/check"
 	"github.com/gotestyourself/gotestyourself/icmd"
 )
 
-// Regression test for https://github.com/docker/docker/issues/7843
+// Regression test for https://github.com/ellcrys/docker/issues/7843
 func (s *DockerSuite) TestStartAttachReturnsOnError(c *check.C) {
 	// Windows does not support link
 	testRequires(c, DaemonIsLinux)

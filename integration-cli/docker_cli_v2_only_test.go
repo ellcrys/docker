@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/docker/docker/internal/test/registry"
+	"github.com/ellcrys/docker/internal/test/registry"
 	"github.com/go-check/check"
 )
 

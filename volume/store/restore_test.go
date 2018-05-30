@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/volume"
-	volumedrivers "github.com/docker/docker/volume/drivers"
-	volumetestutils "github.com/docker/docker/volume/testutils"
+	"github.com/ellcrys/docker/volume"
+	volumedrivers "github.com/ellcrys/docker/volume/drivers"
+	volumetestutils "github.com/ellcrys/docker/volume/testutils"
 	"github.com/gotestyourself/gotestyourself/assert"
 )
 

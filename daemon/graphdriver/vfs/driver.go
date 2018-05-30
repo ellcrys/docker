@@ -1,15 +1,15 @@
-package vfs // import "github.com/docker/docker/daemon/graphdriver/vfs"
+package vfs // import "github.com/ellcrys/docker/daemon/graphdriver/vfs"
 
 import (
 	"fmt"
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/quota"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/daemon/graphdriver"
+	"github.com/ellcrys/docker/daemon/graphdriver/quota"
+	"github.com/ellcrys/docker/pkg/containerfs"
+	"github.com/ellcrys/docker/pkg/idtools"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/docker/go-units"
 	"github.com/opencontainers/selinux/go-selinux/label"
 )

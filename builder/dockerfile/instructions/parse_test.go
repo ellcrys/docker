@@ -1,11 +1,11 @@
-package instructions // import "github.com/docker/docker/builder/dockerfile/instructions"
+package instructions // import "github.com/ellcrys/docker/builder/dockerfile/instructions"
 
 import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/builder/dockerfile/command"
-	"github.com/docker/docker/builder/dockerfile/parser"
+	"github.com/ellcrys/docker/builder/dockerfile/command"
+	"github.com/ellcrys/docker/builder/dockerfile/parser"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 )

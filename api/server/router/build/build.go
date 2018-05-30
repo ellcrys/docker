@@ -1,6 +1,6 @@
-package build // import "github.com/docker/docker/api/server/router/build"
+package build // import "github.com/ellcrys/docker/api/server/router/build"
 
-import "github.com/docker/docker/api/server/router"
+import "github.com/ellcrys/docker/api/server/router"
 
 // buildRouter is a router to talk with the build controller
 type buildRouter struct {

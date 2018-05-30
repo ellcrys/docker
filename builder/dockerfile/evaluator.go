@@ -17,7 +17,7 @@
 // before and after each step, such as creating an image ID and removing temporary
 // containers and images. Note that ONBUILD creates a kinda-sorta "sub run" which
 // includes its own set of steps (usually only one of them).
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/ellcrys/docker/builder/dockerfile"
 
 import (
 	"reflect"
@@ -25,13 +25,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/dockerfile/instructions"
-	"github.com/docker/docker/builder/dockerfile/shell"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/runconfig/opts"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/builder"
+	"github.com/ellcrys/docker/builder/dockerfile/instructions"
+	"github.com/ellcrys/docker/builder/dockerfile/shell"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/pkg/system"
+	"github.com/ellcrys/docker/runconfig/opts"
 	"github.com/pkg/errors"
 )
 

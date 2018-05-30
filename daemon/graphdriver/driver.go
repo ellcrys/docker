@@ -1,4 +1,4 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/ellcrys/docker/daemon/graphdriver"
 
 import (
 	"fmt"
@@ -10,10 +10,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/vbatts/tar-split/tar/storage"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/ellcrys/docker/pkg/archive"
+	"github.com/ellcrys/docker/pkg/containerfs"
+	"github.com/ellcrys/docker/pkg/idtools"
+	"github.com/ellcrys/docker/pkg/plugingetter"
 )
 
 // FsMagic unsigned id of the filesystem in use.

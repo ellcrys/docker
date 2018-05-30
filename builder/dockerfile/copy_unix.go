@@ -1,13 +1,13 @@
 // +build !windows
 
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/ellcrys/docker/builder/dockerfile"
 
 import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/ellcrys/docker/pkg/containerfs"
+	"github.com/ellcrys/docker/pkg/idtools"
 )
 
 func fixPermissions(source, destination string, rootIDs idtools.IDPair, overrideSkip bool) error {

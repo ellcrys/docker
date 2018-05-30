@@ -1,15 +1,15 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/ellcrys/docker/daemon/cluster"
 
 import (
 	"context"
 	"fmt"
 
-	apitypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
-	types "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/convert"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/runconfig"
+	apitypes "github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/network"
+	types "github.com/ellcrys/docker/api/types/swarm"
+	"github.com/ellcrys/docker/daemon/cluster/convert"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/runconfig"
 	swarmapi "github.com/docker/swarmkit/api"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/ellcrys/docker/pkg/plugingetter"
 	"github.com/docker/go-events"
 	gmetrics "github.com/docker/go-metrics"
 	"github.com/docker/swarmkit/api"

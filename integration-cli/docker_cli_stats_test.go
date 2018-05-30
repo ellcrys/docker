@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/cli"
 	"github.com/go-check/check"
 )
 

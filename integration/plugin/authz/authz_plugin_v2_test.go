@@ -1,6 +1,6 @@
 // +build !windows
 
-package authz // import "github.com/docker/docker/integration/plugin/authz"
+package authz // import "github.com/ellcrys/docker/integration/plugin/authz"
 
 import (
 	"context"
@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	volumetypes "github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/integration/internal/requirement"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/filters"
+	volumetypes "github.com/ellcrys/docker/api/types/volume"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/integration/internal/container"
+	"github.com/ellcrys/docker/integration/internal/requirement"
 	"github.com/gotestyourself/gotestyourself/assert"
 	"github.com/gotestyourself/gotestyourself/skip"
 )

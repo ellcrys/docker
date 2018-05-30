@@ -1,9 +1,9 @@
-package network // import "github.com/docker/docker/api/server/router/network"
+package network // import "github.com/ellcrys/docker/api/server/router/network"
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/runconfig"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/filters"
+	"github.com/ellcrys/docker/runconfig"
 )
 
 func filterNetworkByType(nws []types.NetworkResource, netType string) ([]types.NetworkResource, error) {

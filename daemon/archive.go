@@ -1,17 +1,17 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"io"
 	"os"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/pkg/archive"
+	"github.com/ellcrys/docker/pkg/chrootarchive"
+	"github.com/ellcrys/docker/pkg/ioutils"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/pkg/errors"
 )
 

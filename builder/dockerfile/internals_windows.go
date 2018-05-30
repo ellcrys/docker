@@ -1,6 +1,6 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/ellcrys/docker/builder/dockerfile"
 
-import "github.com/docker/docker/pkg/idtools"
+import "github.com/ellcrys/docker/pkg/idtools"
 
 func parseChownFlag(chown, ctrRootPath string, idMappings *idtools.IDMappings) (idtools.IDPair, error) {
 	return idMappings.RootPair(), nil

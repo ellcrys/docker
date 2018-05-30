@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/api/server/router/distribution"
+package distribution // import "github.com/ellcrys/docker/api/server/router/distribution"
 
 import (
 	"context"
@@ -11,9 +11,9 @@ import (
 	"github.com/docker/distribution/manifest/schema1"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	"github.com/ellcrys/docker/api/server/httputils"
+	"github.com/ellcrys/docker/api/types"
+	registrytypes "github.com/ellcrys/docker/api/types/registry"
 	"github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

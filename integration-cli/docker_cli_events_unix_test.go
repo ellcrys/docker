@@ -13,8 +13,8 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/cli/build"
 	"github.com/go-check/check"
 	"github.com/kr/pty"
 	"golang.org/x/sys/unix"

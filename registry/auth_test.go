@@ -1,10 +1,10 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/ellcrys/docker/registry"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	"github.com/ellcrys/docker/api/types"
+	registrytypes "github.com/ellcrys/docker/api/types/registry"
 )
 
 func buildAuthConfigs() map[string]types.AuthConfig {

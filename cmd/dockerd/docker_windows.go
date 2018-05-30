@@ -3,7 +3,7 @@ package main
 import (
 	"path/filepath"
 
-	_ "github.com/docker/docker/autogen/winresources/dockerd"
+	_ "github.com/ellcrys/docker/autogen/winresources/dockerd"
 	"github.com/sirupsen/logrus"
 )
 

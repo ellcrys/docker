@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/ellcrys/docker/client"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
+	"github.com/ellcrys/docker/api/types"
 )
 
 // Info returns information about the docker server.

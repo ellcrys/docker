@@ -1,9 +1,9 @@
-package idtools // import "github.com/docker/docker/pkg/idtools"
+package idtools // import "github.com/ellcrys/docker/pkg/idtools"
 
 import (
 	"os"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/pkg/system"
 )
 
 // Platforms such as Windows do not support the UID/GID concept. So make this

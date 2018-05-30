@@ -1,12 +1,12 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/ellcrys/docker/builder/dockerfile"
 
 import (
 	"context"
 	"runtime"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	dockerimage "github.com/docker/docker/image"
+	"github.com/ellcrys/docker/api/types/backend"
+	"github.com/ellcrys/docker/builder"
+	dockerimage "github.com/ellcrys/docker/image"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

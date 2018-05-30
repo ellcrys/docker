@@ -1,4 +1,4 @@
-package server // import "github.com/docker/docker/api/server"
+package server // import "github.com/ellcrys/docker/api/server"
 
 import (
 	"context"
@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/server/middleware"
-	"github.com/docker/docker/api/server/router"
-	"github.com/docker/docker/api/server/router/debug"
-	"github.com/docker/docker/dockerversion"
+	"github.com/ellcrys/docker/api/server/httputils"
+	"github.com/ellcrys/docker/api/server/middleware"
+	"github.com/ellcrys/docker/api/server/router"
+	"github.com/ellcrys/docker/api/server/router/debug"
+	"github.com/ellcrys/docker/dockerversion"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 )

@@ -1,9 +1,9 @@
-package memory // import "github.com/docker/docker/pkg/discovery/memory"
+package memory // import "github.com/ellcrys/docker/pkg/discovery/memory"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/pkg/discovery"
+	"github.com/ellcrys/docker/pkg/discovery"
 	"github.com/go-check/check"
 )
 

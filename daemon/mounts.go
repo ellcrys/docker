@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"fmt"
 	"strings"
 
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/container"
-	volumestore "github.com/docker/docker/volume/store"
+	mounttypes "github.com/ellcrys/docker/api/types/mount"
+	"github.com/ellcrys/docker/container"
+	volumestore "github.com/ellcrys/docker/volume/store"
 )
 
 func (daemon *Daemon) prepareMountPoints(container *container.Container) error {

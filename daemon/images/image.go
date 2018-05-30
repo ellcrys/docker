@@ -1,11 +1,11 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/ellcrys/docker/daemon/images"
 
 import (
 	"fmt"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/image"
 )
 
 // ErrImageDoesNotExist is error returned when no image can be found for a reference.

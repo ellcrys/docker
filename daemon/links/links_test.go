@@ -1,4 +1,4 @@
-package links // import "github.com/docker/docker/daemon/links"
+package links // import "github.com/ellcrys/docker/daemon/links"
 
 import (
 	"fmt"

@@ -1,8 +1,8 @@
-package system // import "github.com/docker/docker/api/server/router/system"
+package system // import "github.com/ellcrys/docker/api/server/router/system"
 
 import (
-	"github.com/docker/docker/api/server/router"
-	"github.com/docker/docker/builder/fscache"
+	"github.com/ellcrys/docker/api/server/router"
+	"github.com/ellcrys/docker/builder/fscache"
 )
 
 // systemRouter provides information about the Docker system overall.

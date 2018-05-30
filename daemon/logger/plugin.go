@@ -1,4 +1,4 @@
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/ellcrys/docker/daemon/logger"
 
 import (
 	"fmt"
@@ -6,10 +6,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	getter "github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/ellcrys/docker/api/types/plugins/logdriver"
+	getter "github.com/ellcrys/docker/pkg/plugingetter"
+	"github.com/ellcrys/docker/pkg/plugins"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/pkg/errors"
 )
 

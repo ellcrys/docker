@@ -1,13 +1,13 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"fmt"
 	"runtime"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/stringid"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/pkg/stringid"
+	volumemounts "github.com/ellcrys/docker/volume/mounts"
 )
 
 // createContainerOSSpecificSettings performs host-OS specific container create functionality

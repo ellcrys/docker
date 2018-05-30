@@ -1,10 +1,10 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
-	"github.com/docker/docker/container"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"github.com/ellcrys/docker/container"
+	volumemounts "github.com/ellcrys/docker/volume/mounts"
 )
 
 // checkIfPathIsInAVolume checks if the path is in a volume. If it is, it

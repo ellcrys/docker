@@ -1,13 +1,13 @@
-package convert // import "github.com/docker/docker/daemon/cluster/convert"
+package convert // import "github.com/ellcrys/docker/daemon/cluster/convert"
 
 import (
 	"errors"
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	types "github.com/docker/docker/api/types/swarm"
+	"github.com/ellcrys/docker/api/types/container"
+	mounttypes "github.com/ellcrys/docker/api/types/mount"
+	types "github.com/ellcrys/docker/api/types/swarm"
 	swarmapi "github.com/docker/swarmkit/api"
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/sirupsen/logrus"

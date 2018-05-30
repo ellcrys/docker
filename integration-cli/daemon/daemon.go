@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/integration-cli/daemon"
+package daemon // import "github.com/ellcrys/docker/integration-cli/daemon"
 
 import (
 	"fmt"
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/internal/test/daemon"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/internal/test/daemon"
 	"github.com/go-check/check"
 	"github.com/gotestyourself/gotestyourself/assert"
 	"github.com/gotestyourself/gotestyourself/icmd"

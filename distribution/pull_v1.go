@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/ellcrys/docker/distribution"
 
 import (
 	"context"
@@ -15,16 +15,16 @@ import (
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/distribution/xfer"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/image/v1"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/registry"
+	"github.com/ellcrys/docker/distribution/metadata"
+	"github.com/ellcrys/docker/distribution/xfer"
+	"github.com/ellcrys/docker/dockerversion"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/image/v1"
+	"github.com/ellcrys/docker/layer"
+	"github.com/ellcrys/docker/pkg/ioutils"
+	"github.com/ellcrys/docker/pkg/progress"
+	"github.com/ellcrys/docker/pkg/stringid"
+	"github.com/ellcrys/docker/registry"
 	"github.com/sirupsen/logrus"
 )
 
@@ -70,7 +70,7 @@ func (p *v1Puller) Pull(ctx context.Context, ref reference.Named, os string) err
 }
 
 // Note use auth.Scope rather than reference.Named due to this warning causing Jenkins CI to fail:
-// warning: ref can be github.com/docker/docker/vendor/github.com/docker/distribution/registry/client/auth.Scope (interfacer)
+// warning: ref can be github.com/ellcrys/docker/vendor/github.com/docker/distribution/registry/client/auth.Scope (interfacer)
 func (p *v1Puller) pullRepository(ctx context.Context, ref auth.Scope) error {
 	progress.Message(p.config.ProgressOutput, "", "Pulling repository "+p.repoInfo.Name.Name())
 

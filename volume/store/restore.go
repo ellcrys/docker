@@ -1,10 +1,10 @@
-package store // import "github.com/docker/docker/volume/store"
+package store // import "github.com/ellcrys/docker/volume/store"
 
 import (
 	"sync"
 
 	"github.com/boltdb/bolt"
-	"github.com/docker/docker/volume"
+	"github.com/ellcrys/docker/volume"
 	"github.com/sirupsen/logrus"
 )
 

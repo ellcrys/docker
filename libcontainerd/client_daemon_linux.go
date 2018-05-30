@@ -1,4 +1,4 @@
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "github.com/ellcrys/docker/libcontainerd"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/cio"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/ellcrys/docker/pkg/idtools"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 )

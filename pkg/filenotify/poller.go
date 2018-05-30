@@ -1,4 +1,4 @@
-package filenotify // import "github.com/docker/docker/pkg/filenotify"
+package filenotify // import "github.com/ellcrys/docker/pkg/filenotify"
 
 import (
 	"errors"

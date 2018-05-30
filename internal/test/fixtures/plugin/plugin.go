@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/internal/test/fixtures/plugin"
+package plugin // import "github.com/ellcrys/docker/internal/test/fixtures/plugin"
 
 import (
 	"context"
@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/plugin"
-	"github.com/docker/docker/registry"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/pkg/archive"
+	"github.com/ellcrys/docker/plugin"
+	"github.com/ellcrys/docker/registry"
 	"github.com/pkg/errors"
 )
 

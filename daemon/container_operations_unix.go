@@ -1,6 +1,6 @@
 // +build linux freebsd
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"context"
@@ -11,13 +11,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/links"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/runconfig"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/daemon/links"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/pkg/idtools"
+	"github.com/ellcrys/docker/pkg/mount"
+	"github.com/ellcrys/docker/pkg/stringid"
+	"github.com/ellcrys/docker/runconfig"
 	"github.com/docker/libnetwork"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"

@@ -1,9 +1,9 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"fmt"
 
-	"github.com/docker/docker/container"
+	"github.com/ellcrys/docker/container"
 	"github.com/sirupsen/logrus"
 )
 

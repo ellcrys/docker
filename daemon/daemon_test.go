@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"io/ioutil"
@@ -7,15 +7,15 @@ import (
 	"runtime"
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	_ "github.com/docker/docker/pkg/discovery/memory"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/truncindex"
-	volumedrivers "github.com/docker/docker/volume/drivers"
-	"github.com/docker/docker/volume/local"
-	"github.com/docker/docker/volume/store"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/errdefs"
+	_ "github.com/ellcrys/docker/pkg/discovery/memory"
+	"github.com/ellcrys/docker/pkg/idtools"
+	"github.com/ellcrys/docker/pkg/truncindex"
+	volumedrivers "github.com/ellcrys/docker/volume/drivers"
+	"github.com/ellcrys/docker/volume/local"
+	"github.com/ellcrys/docker/volume/store"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/libnetwork"
 	"github.com/gotestyourself/gotestyourself/assert"
@@ -24,7 +24,7 @@ import (
 )
 
 //
-// https://github.com/docker/docker/issues/8069
+// https://github.com/ellcrys/docker/issues/8069
 //
 
 func TestGetContainer(t *testing.T) {

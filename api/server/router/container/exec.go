@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/api/server/router/container"
+package container // import "github.com/ellcrys/docker/api/server/router/container"
 
 import (
 	"context"
@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/ellcrys/docker/api/server/httputils"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/pkg/stdcopy"
 	"github.com/sirupsen/logrus"
 )
 

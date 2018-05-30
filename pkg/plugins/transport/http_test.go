@@ -1,4 +1,4 @@
-package transport // import "github.com/docker/docker/pkg/plugins/transport"
+package transport // import "github.com/ellcrys/docker/pkg/plugins/transport"
 
 import (
 	"io"

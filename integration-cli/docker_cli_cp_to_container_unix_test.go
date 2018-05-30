@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/go-check/check"
 )
 

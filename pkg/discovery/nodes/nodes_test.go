@@ -1,9 +1,9 @@
-package nodes // import "github.com/docker/docker/pkg/discovery/nodes"
+package nodes // import "github.com/ellcrys/docker/pkg/discovery/nodes"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/pkg/discovery"
+	"github.com/ellcrys/docker/pkg/discovery"
 
 	"github.com/go-check/check"
 )

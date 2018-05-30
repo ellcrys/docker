@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"fmt"
@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/volume"
-	volumestore "github.com/docker/docker/volume/store"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/pkg/system"
+	"github.com/ellcrys/docker/volume"
+	volumestore "github.com/ellcrys/docker/volume/store"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

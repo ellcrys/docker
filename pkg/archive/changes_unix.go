@@ -1,12 +1,12 @@
 // +build !windows
 
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/ellcrys/docker/pkg/archive"
 
 import (
 	"os"
 	"syscall"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

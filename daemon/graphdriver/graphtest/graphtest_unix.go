@@ -1,6 +1,6 @@
 // +build linux freebsd
 
-package graphtest // import "github.com/docker/docker/daemon/graphdriver/graphtest"
+package graphtest // import "github.com/ellcrys/docker/daemon/graphdriver/graphtest"
 
 import (
 	"bytes"
@@ -12,9 +12,9 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/quota"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/ellcrys/docker/daemon/graphdriver"
+	"github.com/ellcrys/docker/daemon/graphdriver/quota"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/docker/go-units"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"

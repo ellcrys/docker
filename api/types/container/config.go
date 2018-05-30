@@ -1,9 +1,9 @@
-package container // import "github.com/docker/docker/api/types/container"
+package container // import "github.com/ellcrys/docker/api/types/container"
 
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/strslice"
+	"github.com/ellcrys/docker/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 )
 

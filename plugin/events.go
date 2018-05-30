@@ -1,10 +1,10 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/ellcrys/docker/plugin"
 
 import (
 	"fmt"
 	"reflect"
 
-	"github.com/docker/docker/api/types"
+	"github.com/ellcrys/docker/api/types"
 )
 
 // Event is emitted for actions performed on the plugin manager

@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/daemon"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/integration/internal/container"
+	"github.com/ellcrys/docker/internal/test/daemon"
 
 	"github.com/gotestyourself/gotestyourself/assert"
 )

@@ -1,15 +1,15 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"context"
 	"os/exec"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/pkg/sysinfo"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/dockerversion"
+	"github.com/ellcrys/docker/pkg/sysinfo"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

@@ -1,4 +1,4 @@
-package fscache // import "github.com/docker/docker/builder/fscache"
+package fscache // import "github.com/ellcrys/docker/builder/fscache"
 
 import (
 	"archive/tar"
@@ -13,12 +13,12 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/tarsum"
+	"github.com/ellcrys/docker/builder"
+	"github.com/ellcrys/docker/builder/remotecontext"
+	"github.com/ellcrys/docker/pkg/archive"
+	"github.com/ellcrys/docker/pkg/directory"
+	"github.com/ellcrys/docker/pkg/stringid"
+	"github.com/ellcrys/docker/pkg/tarsum"
 	"github.com/moby/buildkit/session/filesync"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

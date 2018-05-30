@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/armon/go-radix"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/docker/go-events"
 	"github.com/docker/libnetwork/types"
 	"github.com/hashicorp/memberlist"

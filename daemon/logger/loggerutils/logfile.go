@@ -1,4 +1,4 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "github.com/ellcrys/docker/daemon/logger/loggerutils"
 
 import (
 	"bytes"
@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils/multireader"
-	"github.com/docker/docker/pkg/filenotify"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/pubsub"
-	"github.com/docker/docker/pkg/tailfile"
+	"github.com/ellcrys/docker/daemon/logger"
+	"github.com/ellcrys/docker/daemon/logger/loggerutils/multireader"
+	"github.com/ellcrys/docker/pkg/filenotify"
+	"github.com/ellcrys/docker/pkg/pools"
+	"github.com/ellcrys/docker/pkg/pubsub"
+	"github.com/ellcrys/docker/pkg/tailfile"
 	"github.com/fsnotify/fsnotify"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

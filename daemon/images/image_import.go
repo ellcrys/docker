@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/ellcrys/docker/daemon/images"
 
 import (
 	"encoding/json"
@@ -10,16 +10,16 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder/dockerfile"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/builder/dockerfile"
+	"github.com/ellcrys/docker/builder/remotecontext"
+	"github.com/ellcrys/docker/dockerversion"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/layer"
+	"github.com/ellcrys/docker/pkg/archive"
+	"github.com/ellcrys/docker/pkg/progress"
+	"github.com/ellcrys/docker/pkg/streamformatter"
 	"github.com/pkg/errors"
 )
 

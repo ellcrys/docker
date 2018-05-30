@@ -9,12 +9,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/mount"
+	"github.com/ellcrys/docker/api/types/network"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/cli/build"
 	"github.com/go-check/check"
 	"github.com/gotestyourself/gotestyourself/icmd"
 )
@@ -426,7 +426,7 @@ func (s *DockerSuite) TestVolumeCLIRmForce(c *check.C) {
 }
 
 // TestVolumeCLIRmForceInUse verifies that repeated `docker volume rm -f` calls does not remove a volume
-// if it is in use. Test case for https://github.com/docker/docker/issues/31446
+// if it is in use. Test case for https://github.com/ellcrys/docker/issues/31446
 func (s *DockerSuite) TestVolumeCLIRmForceInUse(c *check.C) {
 	name := "testvolume"
 	out, _ := dockerCmd(c, "volume", "create", name)

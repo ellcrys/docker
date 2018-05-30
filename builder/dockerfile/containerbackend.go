@@ -1,15 +1,15 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/ellcrys/docker/builder/dockerfile"
 
 import (
 	"context"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/builder"
+	containerpkg "github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

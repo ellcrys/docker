@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/filters"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/pkg/stdcopy"
 	"github.com/sirupsen/logrus"
 )
 

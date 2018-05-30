@@ -1,19 +1,19 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/ellcrys/docker/daemon/images"
 
 import (
 	"context"
 	"io"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/registry"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/backend"
+	"github.com/ellcrys/docker/builder"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/layer"
+	"github.com/ellcrys/docker/pkg/containerfs"
+	"github.com/ellcrys/docker/pkg/stringid"
+	"github.com/ellcrys/docker/pkg/system"
+	"github.com/ellcrys/docker/registry"
 	"github.com/pkg/errors"
 )
 

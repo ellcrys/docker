@@ -3,9 +3,9 @@ package main
 import (
 	"runtime"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/registry"
+	"github.com/ellcrys/docker/daemon/config"
+	"github.com/ellcrys/docker/opts"
+	"github.com/ellcrys/docker/registry"
 	"github.com/spf13/pflag"
 )
 

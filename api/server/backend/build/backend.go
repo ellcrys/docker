@@ -1,16 +1,16 @@
-package build // import "github.com/docker/docker/api/server/backend/build"
+package build // import "github.com/ellcrys/docker/api/server/backend/build"
 
 import (
 	"context"
 	"fmt"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/fscache"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/backend"
+	"github.com/ellcrys/docker/builder"
+	"github.com/ellcrys/docker/builder/fscache"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/pkg/errors"
 )
 

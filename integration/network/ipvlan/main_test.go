@@ -1,11 +1,11 @@
-package ipvlan // import "github.com/docker/docker/integration/network/ipvlan"
+package ipvlan // import "github.com/ellcrys/docker/integration/network/ipvlan"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/ellcrys/docker/internal/test/environment"
 )
 
 var testEnv *environment.Execution

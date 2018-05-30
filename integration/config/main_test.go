@@ -1,11 +1,11 @@
-package config // import "github.com/docker/docker/integration/config"
+package config // import "github.com/ellcrys/docker/integration/config"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/ellcrys/docker/internal/test/environment"
 )
 
 var testEnv *environment.Execution

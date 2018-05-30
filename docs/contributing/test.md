@@ -111,7 +111,7 @@ Try this now.
     `dry-run-test` image.
 
     ```bash
-    $ docker run --privileged --rm -ti -v `pwd`:/go/src/github.com/docker/docker dry-run-test /bin/bash
+    $ docker run --privileged --rm -ti -v `pwd`:/go/src/github.com/ellcrys/docker dry-run-test /bin/bash
     ```
 
 3.  Run the unit tests using the `hack/test/unit` script.
@@ -198,7 +198,7 @@ run a Bash terminal on Windows.
 2.  Change to the `moby` source directory.
 
     ```bash
-    $ cd /c/gopath/src/github.com/docker/docker
+    $ cd /c/gopath/src/github.com/ellcrys/docker
     ```
 
 3.  Set `DOCKER_REMOTE_DAEMON` as follows:

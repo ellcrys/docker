@@ -1,6 +1,6 @@
 // +build !windows
 
-package authorization // import "github.com/docker/docker/pkg/authorization"
+package authorization // import "github.com/ellcrys/docker/pkg/authorization"
 
 import (
 	"context"
@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/ellcrys/docker/pkg/plugingetter"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 )

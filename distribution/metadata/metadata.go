@@ -1,4 +1,4 @@
-package metadata // import "github.com/docker/docker/distribution/metadata"
+package metadata // import "github.com/ellcrys/docker/distribution/metadata"
 
 import (
 	"io/ioutil"
@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/ellcrys/docker/pkg/ioutils"
 )
 
 // Store implements a K/V store for mapping distribution-related IDs

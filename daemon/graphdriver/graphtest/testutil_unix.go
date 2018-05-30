@@ -1,6 +1,6 @@
 // +build linux freebsd
 
-package graphtest // import "github.com/docker/docker/daemon/graphdriver/graphtest"
+package graphtest // import "github.com/ellcrys/docker/daemon/graphdriver/graphtest"
 
 import (
 	"os"
@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	contdriver "github.com/containerd/continuity/driver"
-	"github.com/docker/docker/daemon/graphdriver"
+	"github.com/ellcrys/docker/daemon/graphdriver"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 	"golang.org/x/sys/unix"

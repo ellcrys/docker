@@ -1,10 +1,10 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/container"
 	"github.com/pkg/errors"
 )
 

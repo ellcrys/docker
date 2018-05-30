@@ -1,14 +1,14 @@
-package v1 // import "github.com/docker/docker/image/v1"
+package v1 // import "github.com/ellcrys/docker/image/v1"
 
 import (
 	"encoding/json"
 	"reflect"
 	"strings"
 
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/layer"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

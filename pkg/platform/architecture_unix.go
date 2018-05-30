@@ -2,7 +2,7 @@
 
 // Package platform provides helper function to get the runtime architecture
 // for different platforms.
-package platform // import "github.com/docker/docker/pkg/platform"
+package platform // import "github.com/ellcrys/docker/pkg/platform"
 
 import (
 	"os/exec"

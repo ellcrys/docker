@@ -3,8 +3,8 @@ package daemon
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/internal/test"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/internal/test"
 	"github.com/gotestyourself/gotestyourself/assert"
 )
 

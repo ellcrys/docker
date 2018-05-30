@@ -1,9 +1,9 @@
 package images
 
 import (
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/layer"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/pkg/errors"
 )
 

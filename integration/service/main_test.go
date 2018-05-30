@@ -1,11 +1,11 @@
-package service // import "github.com/docker/docker/integration/service"
+package service // import "github.com/ellcrys/docker/integration/service"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/ellcrys/docker/internal/test/environment"
 )
 
 var testEnv *environment.Execution

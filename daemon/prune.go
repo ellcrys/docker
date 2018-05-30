@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"context"
@@ -7,12 +7,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	timetypes "github.com/docker/docker/api/types/time"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/runconfig"
-	"github.com/docker/docker/volume"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/filters"
+	timetypes "github.com/ellcrys/docker/api/types/time"
+	"github.com/ellcrys/docker/pkg/directory"
+	"github.com/ellcrys/docker/runconfig"
+	"github.com/ellcrys/docker/volume"
 	"github.com/docker/libnetwork"
 	"github.com/sirupsen/logrus"
 )
@@ -226,7 +226,7 @@ func (daemon *Daemon) clusterNetworksPrune(ctx context.Context, pruneFilters fil
 			if !matchLabels(pruneFilters, nw.Labels) {
 				continue
 			}
-			// https://github.com/docker/docker/issues/24186
+			// https://github.com/ellcrys/docker/issues/24186
 			// `docker network inspect` unfortunately displays ONLY those containers that are local to that node.
 			// So we try to remove it anyway and check the error
 			err = cluster.RemoveNetwork(nw.ID)

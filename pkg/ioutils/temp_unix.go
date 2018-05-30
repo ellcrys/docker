@@ -1,6 +1,6 @@
 // +build !windows
 
-package ioutils // import "github.com/docker/docker/pkg/ioutils"
+package ioutils // import "github.com/ellcrys/docker/pkg/ioutils"
 
 import "io/ioutil"
 

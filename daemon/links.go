@@ -1,9 +1,9 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"sync"
 
-	"github.com/docker/docker/container"
+	"github.com/ellcrys/docker/container"
 )
 
 // linkIndex stores link relationships between containers, including their specified alias

@@ -1,13 +1,13 @@
-package image // import "github.com/docker/docker/api/server/router/image"
+package image // import "github.com/ellcrys/docker/api/server/router/image"
 
 import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/api/types/registry"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/filters"
+	"github.com/ellcrys/docker/api/types/image"
+	"github.com/ellcrys/docker/api/types/registry"
 )
 
 // Backend is all the methods that need to be implemented

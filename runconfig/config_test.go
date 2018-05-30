@@ -1,4 +1,4 @@
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "github.com/ellcrys/docker/runconfig"
 
 import (
 	"bytes"
@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/strslice"
+	"github.com/ellcrys/docker/api/types/container"
+	networktypes "github.com/ellcrys/docker/api/types/network"
+	"github.com/ellcrys/docker/api/types/strslice"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 )

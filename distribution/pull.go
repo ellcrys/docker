@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/ellcrys/docker/distribution"
 
 import (
 	"context"
@@ -6,11 +6,11 @@ import (
 	"runtime"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/pkg/progress"
-	refstore "github.com/docker/docker/reference"
-	"github.com/docker/docker/registry"
+	"github.com/ellcrys/docker/api"
+	"github.com/ellcrys/docker/distribution/metadata"
+	"github.com/ellcrys/docker/pkg/progress"
+	refstore "github.com/ellcrys/docker/reference"
+	"github.com/ellcrys/docker/registry"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

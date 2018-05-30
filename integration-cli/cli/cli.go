@@ -1,4 +1,4 @@
-package cli // import "github.com/docker/docker/integration-cli/cli"
+package cli // import "github.com/ellcrys/docker/integration-cli/cli"
 
 import (
 	"fmt"
@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/daemon"
-	"github.com/docker/docker/integration-cli/environment"
+	"github.com/ellcrys/docker/integration-cli/daemon"
+	"github.com/ellcrys/docker/integration-cli/environment"
 	"github.com/gotestyourself/gotestyourself/assert"
 	"github.com/gotestyourself/gotestyourself/icmd"
 	"github.com/pkg/errors"

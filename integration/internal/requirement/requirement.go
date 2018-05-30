@@ -1,4 +1,4 @@
-package requirement // import "github.com/docker/docker/integration/internal/requirement"
+package requirement // import "github.com/ellcrys/docker/integration/internal/requirement"
 
 import (
 	"net/http"
@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/ellcrys/docker/pkg/parsers/kernel"
 	"github.com/gotestyourself/gotestyourself/icmd"
 )
 

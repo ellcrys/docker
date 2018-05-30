@@ -6,9 +6,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/daemon"
-	testdaemon "github.com/docker/docker/internal/test/daemon"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/daemon"
+	testdaemon "github.com/ellcrys/docker/internal/test/daemon"
 	"github.com/go-check/check"
 )
 

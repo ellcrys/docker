@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	winio "github.com/Microsoft/go-winio"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/mount"
 	"github.com/go-check/check"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"

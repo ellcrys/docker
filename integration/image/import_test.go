@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/integration/image"
+package image // import "github.com/ellcrys/docker/integration/image"
 
 import (
 	"archive/tar"
@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/internal/testutil"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/internal/test/request"
+	"github.com/ellcrys/docker/internal/testutil"
 )
 
 // Ensure we don't regress on CVE-2017-14992.

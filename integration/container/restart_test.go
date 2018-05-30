@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/ellcrys/docker/integration/container"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/internal/test/daemon"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/internal/test/daemon"
 	"github.com/gotestyourself/gotestyourself/assert"
 	"github.com/gotestyourself/gotestyourself/skip"
 )

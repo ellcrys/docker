@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/ellcrys/docker/builder/dockerfile"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/backend"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/builder"
+	containerpkg "github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/layer"
+	"github.com/ellcrys/docker/pkg/containerfs"
 )
 
 // MockBackend implements the builder.Backend interface for unit testing

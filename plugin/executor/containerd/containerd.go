@@ -1,4 +1,4 @@
-package containerd // import "github.com/docker/docker/plugin/executor/containerd"
+package containerd // import "github.com/ellcrys/docker/plugin/executor/containerd"
 
 import (
 	"context"
@@ -9,8 +9,8 @@ import (
 
 	"github.com/containerd/containerd/cio"
 	"github.com/containerd/containerd/linux/runctypes"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libcontainerd"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/libcontainerd"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
@@ -26,7 +26,7 @@ type ExitHandler interface {
 
 // Client is used by the exector to perform operations.
 // TODO(@cpuguy83): This should really just be based off the containerd client interface.
-// However right now this whole package is tied to github.com/docker/docker/libcontainerd
+// However right now this whole package is tied to github.com/ellcrys/docker/libcontainerd
 type Client interface {
 	Create(ctx context.Context, containerID string, spec *specs.Spec, runtimeOptions interface{}) error
 	Restore(ctx context.Context, containerID string, attachStdio libcontainerd.StdioCallback) (alive bool, pid int, err error)

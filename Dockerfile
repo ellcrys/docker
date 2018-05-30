@@ -78,7 +78,7 @@ RUN set -x \
 FROM base AS docker-py
 # Get the "docker-py" source so we can run their integration tests
 ENV DOCKER_PY_COMMIT 8b246db271a85d6541dc458838627e89c683e42f
-RUN git clone https://github.com/docker/docker-py.git /build \
+RUN git clone https://github.com/ellcrys/docker-py.git /build \
 	&& cd /build \
 	&& git checkout -q $DOCKER_PY_COMMIT
 
@@ -232,9 +232,9 @@ ENV PATH=/usr/local/cli:$PATH
 ENV DOCKER_BUILDTAGS apparmor seccomp selinux
 # Options for hack/validate/gometalinter
 ENV GOMETALINTER_OPTS="--deadline=2m"
-WORKDIR /go/src/github.com/docker/docker
+WORKDIR /go/src/github.com/ellcrys/docker
 VOLUME /var/lib/docker
 # Wrap all commands in the "docker-in-docker" script to allow nested containers
 ENTRYPOINT ["hack/dind"]
 # Upload docker source
-COPY . /go/src/github.com/docker/docker
+COPY . /go/src/github.com/ellcrys/docker

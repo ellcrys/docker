@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/ellcrys/docker/distribution"
 
 import (
 	"context"
@@ -13,9 +13,9 @@ import (
 	"github.com/docker/distribution/registry/client"
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/registry"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/dockerversion"
+	"github.com/ellcrys/docker/registry"
 	"github.com/docker/go-connections/sockets"
 )
 
@@ -23,8 +23,8 @@ import (
 var ImageTypes = []string{
 	schema2.MediaTypeImageConfig,
 	// Handle unexpected values from https://github.com/docker/distribution/issues/1621
-	// (see also https://github.com/docker/docker/issues/22378,
-	// https://github.com/docker/docker/issues/30083)
+	// (see also https://github.com/ellcrys/docker/issues/22378,
+	// https://github.com/ellcrys/docker/issues/30083)
 	"application/octet-stream",
 	"application/json",
 	"text/html",

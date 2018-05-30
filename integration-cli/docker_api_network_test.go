@@ -8,12 +8,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/filters"
+	"github.com/ellcrys/docker/api/types/network"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/internal/test/request"
 	"github.com/go-check/check"
 )
 

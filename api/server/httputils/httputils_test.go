@@ -1,4 +1,4 @@
-package httputils // import "github.com/docker/docker/api/server/httputils"
+package httputils // import "github.com/ellcrys/docker/api/server/httputils"
 
 import "testing"
 

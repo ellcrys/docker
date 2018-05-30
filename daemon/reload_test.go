@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"os"
@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/daemon/images"
-	"github.com/docker/docker/pkg/discovery"
-	_ "github.com/docker/docker/pkg/discovery/memory"
-	"github.com/docker/docker/registry"
+	"github.com/ellcrys/docker/daemon/config"
+	"github.com/ellcrys/docker/daemon/images"
+	"github.com/ellcrys/docker/pkg/discovery"
+	_ "github.com/ellcrys/docker/pkg/discovery/memory"
+	"github.com/ellcrys/docker/registry"
 	"github.com/docker/libnetwork"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"

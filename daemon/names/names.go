@@ -1,4 +1,4 @@
-package names // import "github.com/docker/docker/daemon/names"
+package names // import "github.com/ellcrys/docker/daemon/names"
 
 import "regexp"
 

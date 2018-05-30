@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/ellcrys/docker/registry"
 
 import (
 	"context"
@@ -10,9 +10,9 @@ import (
 
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/auth"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
+	"github.com/ellcrys/docker/api/types"
+	registrytypes "github.com/ellcrys/docker/api/types/registry"
+	"github.com/ellcrys/docker/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

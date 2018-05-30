@@ -1,13 +1,13 @@
 // +build linux
 
-package btrfs // import "github.com/docker/docker/daemon/graphdriver/btrfs"
+package btrfs // import "github.com/ellcrys/docker/daemon/graphdriver/btrfs"
 
 import (
 	"os"
 	"path"
 	"testing"
 
-	"github.com/docker/docker/daemon/graphdriver/graphtest"
+	"github.com/ellcrys/docker/daemon/graphdriver/graphtest"
 )
 
 // This avoids creating a new driver for each test if all tests are run

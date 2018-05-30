@@ -8,11 +8,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/mount"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/pkg/stdcopy"
 )
 
 // testChunkExecutor executes integration-cli binary.

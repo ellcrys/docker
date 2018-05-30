@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/ellcrys/docker/plugin"
 
 import (
 	"io"
@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/plugin/v2"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/pkg/mount"
+	"github.com/ellcrys/docker/pkg/system"
+	"github.com/ellcrys/docker/plugin/v2"
 	"github.com/gotestyourself/gotestyourself/skip"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"

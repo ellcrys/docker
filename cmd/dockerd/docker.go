@@ -5,11 +5,11 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/docker/docker/cli"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/docker/pkg/term"
+	"github.com/ellcrys/docker/cli"
+	"github.com/ellcrys/docker/daemon/config"
+	"github.com/ellcrys/docker/dockerversion"
+	"github.com/ellcrys/docker/pkg/reexec"
+	"github.com/ellcrys/docker/pkg/term"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

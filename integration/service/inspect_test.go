@@ -1,16 +1,16 @@
-package service // import "github.com/docker/docker/integration/service"
+package service // import "github.com/ellcrys/docker/integration/service"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/swarm"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/filters"
+	swarmtypes "github.com/ellcrys/docker/api/types/swarm"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/integration/internal/swarm"
 	"github.com/google/go-cmp/cmp"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"

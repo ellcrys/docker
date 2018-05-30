@@ -17,20 +17,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
+	"github.com/ellcrys/docker/api/types"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	mounttypes "github.com/ellcrys/docker/api/types/mount"
+	networktypes "github.com/ellcrys/docker/api/types/network"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/cli"
+	"github.com/ellcrys/docker/integration-cli/cli/build"
+	"github.com/ellcrys/docker/internal/test/request"
+	"github.com/ellcrys/docker/pkg/ioutils"
+	"github.com/ellcrys/docker/pkg/mount"
+	"github.com/ellcrys/docker/pkg/stringid"
+	"github.com/ellcrys/docker/volume"
 	"github.com/docker/go-connections/nat"
 	"github.com/go-check/check"
 	"github.com/gotestyourself/gotestyourself/assert"
@@ -1284,7 +1284,7 @@ func (s *DockerSuite) TestContainerAPIDeleteRemoveVolume(c *check.C) {
 	c.Assert(os.IsNotExist(err), checker.True, check.Commentf("expected to get ErrNotExist error, got %v", err))
 }
 
-// Regression test for https://github.com/docker/docker/issues/6231
+// Regression test for https://github.com/ellcrys/docker/issues/6231
 func (s *DockerSuite) TestContainerAPIChunkedEncoding(c *check.C) {
 
 	config := map[string]interface{}{

@@ -3,8 +3,8 @@
 package main
 
 import (
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/opts"
+	"github.com/ellcrys/docker/daemon/config"
+	"github.com/ellcrys/docker/opts"
 	"github.com/docker/go-units"
 	"github.com/spf13/pflag"
 )

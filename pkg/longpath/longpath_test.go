@@ -1,4 +1,4 @@
-package longpath // import "github.com/docker/docker/pkg/longpath"
+package longpath // import "github.com/ellcrys/docker/pkg/longpath"
 
 import (
 	"strings"

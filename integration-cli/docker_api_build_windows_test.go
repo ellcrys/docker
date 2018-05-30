@@ -5,9 +5,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/internal/test/fakecontext"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/internal/test/fakecontext"
+	"github.com/ellcrys/docker/internal/test/request"
 	"github.com/go-check/check"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"

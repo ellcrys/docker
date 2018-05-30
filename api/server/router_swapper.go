@@ -1,4 +1,4 @@
-package server // import "github.com/docker/docker/api/server"
+package server // import "github.com/ellcrys/docker/api/server"
 
 import (
 	"net/http"

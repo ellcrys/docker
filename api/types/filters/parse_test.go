@@ -1,4 +1,4 @@
-package filters // import "github.com/docker/docker/api/types/filters"
+package filters // import "github.com/ellcrys/docker/api/types/filters"
 
 import (
 	"errors"

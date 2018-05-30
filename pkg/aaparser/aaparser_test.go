@@ -1,4 +1,4 @@
-package aaparser // import "github.com/docker/docker/pkg/aaparser"
+package aaparser // import "github.com/ellcrys/docker/pkg/aaparser"
 
 import (
 	"testing"

@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"bufio"
@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/pkg/fileutils"
-	"github.com/docker/docker/pkg/mount"
+	"github.com/ellcrys/docker/pkg/fileutils"
+	"github.com/ellcrys/docker/pkg/mount"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

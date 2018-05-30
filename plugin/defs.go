@@ -1,10 +1,10 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/ellcrys/docker/plugin"
 
 import (
 	"sync"
 
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/plugin/v2"
+	"github.com/ellcrys/docker/pkg/plugins"
+	"github.com/ellcrys/docker/plugin/v2"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

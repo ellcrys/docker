@@ -16,15 +16,15 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/docker/docker/builder/dockerfile/command"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/internal/test/fakecontext"
-	"github.com/docker/docker/internal/test/fakegit"
-	"github.com/docker/docker/internal/test/fakestorage"
-	"github.com/docker/docker/internal/testutil"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/ellcrys/docker/builder/dockerfile/command"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/cli"
+	"github.com/ellcrys/docker/integration-cli/cli/build"
+	"github.com/ellcrys/docker/internal/test/fakecontext"
+	"github.com/ellcrys/docker/internal/test/fakegit"
+	"github.com/ellcrys/docker/internal/test/fakestorage"
+	"github.com/ellcrys/docker/internal/testutil"
+	"github.com/ellcrys/docker/pkg/archive"
 	"github.com/go-check/check"
 	"github.com/gotestyourself/gotestyourself/icmd"
 	"github.com/opencontainers/go-digest"
@@ -437,7 +437,7 @@ ADD %s/file /`
 
 }
 
-// Regression for https://github.com/docker/docker/pull/27805
+// Regression for https://github.com/ellcrys/docker/pull/27805
 // Makes sure that we don't use the cache if the contents of
 // a file in a subfolder of the context is modified and we re-build.
 func (s *DockerSuite) TestBuildModifyFileInFolder(c *check.C) {
@@ -5989,7 +5989,7 @@ func (s *DockerSuite) TestBuildIntermediateTarget(c *check.C) {
 
 // TestBuildOpaqueDirectory tests that a build succeeds which
 // creates opaque directories.
-// See https://github.com/docker/docker/issues/25244
+// See https://github.com/ellcrys/docker/issues/25244
 func (s *DockerSuite) TestBuildOpaqueDirectory(c *check.C) {
 	testRequires(c, DaemonIsLinux)
 	dockerFile := `

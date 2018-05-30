@@ -1,4 +1,4 @@
-package environment // import "github.com/docker/docker/internal/test/environment"
+package environment // import "github.com/ellcrys/docker/internal/test/environment"
 
 import (
 	"context"
@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test/fixtures/load"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/internal/test/fixtures/load"
 	"github.com/pkg/errors"
 )
 

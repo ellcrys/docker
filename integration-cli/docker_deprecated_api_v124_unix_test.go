@@ -5,8 +5,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/internal/test/request"
 	"github.com/go-check/check"
 )
 

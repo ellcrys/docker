@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/ellcrys/docker/client"
 
 import (
 	"bytes"
@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/ellcrys/docker/api/types/swarm"
 )
 
 // ConfigInspectWithRaw returns the config information with raw data

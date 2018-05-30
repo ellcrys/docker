@@ -1,15 +1,15 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"net"
 	"net/http"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/plugin"
+	"github.com/ellcrys/docker/pkg/plugingetter"
+	"github.com/ellcrys/docker/pkg/plugins"
+	"github.com/ellcrys/docker/plugin"
 	"github.com/docker/go-metrics"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"

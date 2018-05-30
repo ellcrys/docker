@@ -1,4 +1,4 @@
-package instructions // import "github.com/docker/docker/builder/dockerfile/instructions"
+package instructions // import "github.com/ellcrys/docker/builder/dockerfile/instructions"
 
 import "testing"
 

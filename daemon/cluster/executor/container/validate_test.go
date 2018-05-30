@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "github.com/ellcrys/docker/daemon/cluster/executor/container"
 
 import (
 	"io/ioutil"
@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/ellcrys/docker/daemon"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/docker/swarmkit/api"
 )
 

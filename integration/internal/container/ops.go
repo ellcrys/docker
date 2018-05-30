@@ -3,9 +3,9 @@ package container
 import (
 	"fmt"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/strslice"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	networktypes "github.com/ellcrys/docker/api/types/network"
+	"github.com/ellcrys/docker/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 )
 

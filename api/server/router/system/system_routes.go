@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/api/server/router/system"
+package system // import "github.com/ellcrys/docker/api/server/router/system"
 
 import (
 	"context"
@@ -7,14 +7,14 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/registry"
-	timetypes "github.com/docker/docker/api/types/time"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/ellcrys/docker/api/server/httputils"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/events"
+	"github.com/ellcrys/docker/api/types/filters"
+	"github.com/ellcrys/docker/api/types/registry"
+	timetypes "github.com/ellcrys/docker/api/types/time"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/pkg/ioutils"
 	pkgerrors "github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

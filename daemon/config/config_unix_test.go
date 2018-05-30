@@ -1,11 +1,11 @@
 // +build !windows
 
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/ellcrys/docker/daemon/config"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/opts"
+	"github.com/ellcrys/docker/opts"
 	"github.com/docker/go-units"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"

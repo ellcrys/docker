@@ -1,6 +1,6 @@
 // +build !windows
 
-package container // import "github.com/docker/docker/api/types/container"
+package container // import "github.com/ellcrys/docker/api/types/container"
 
 // IsValid indicates if an isolation technology is valid
 func (i Isolation) IsValid() bool {

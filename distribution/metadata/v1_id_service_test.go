@@ -1,11 +1,11 @@
-package metadata // import "github.com/docker/docker/distribution/metadata"
+package metadata // import "github.com/ellcrys/docker/distribution/metadata"
 
 import (
 	"io/ioutil"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/layer"
+	"github.com/ellcrys/docker/layer"
 	"github.com/gotestyourself/gotestyourself/assert"
 )
 

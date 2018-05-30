@@ -1,17 +1,17 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"context"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/pkg/term"
+	"github.com/ellcrys/docker/api/types/backend"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/container/stream"
+	"github.com/ellcrys/docker/daemon/logger"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/pkg/stdcopy"
+	"github.com/ellcrys/docker/pkg/term"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

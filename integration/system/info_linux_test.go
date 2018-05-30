@@ -1,14 +1,14 @@
 // +build !windows
 
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/ellcrys/docker/integration/system"
 
 import (
 	"context"
 	"net/http"
 	"testing"
 
-	"github.com/docker/docker/internal/test/request"
-	req "github.com/docker/docker/internal/test/request"
+	"github.com/ellcrys/docker/internal/test/request"
+	req "github.com/ellcrys/docker/internal/test/request"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 )

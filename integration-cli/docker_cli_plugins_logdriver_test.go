@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/integration-cli/checker"
 	"github.com/go-check/check"
 )
 

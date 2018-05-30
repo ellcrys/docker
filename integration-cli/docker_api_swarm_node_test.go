@@ -5,9 +5,9 @@ package main
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/daemon"
+	"github.com/ellcrys/docker/api/types/swarm"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/daemon"
 	"github.com/go-check/check"
 )
 

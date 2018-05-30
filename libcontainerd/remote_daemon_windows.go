@@ -1,6 +1,6 @@
 // +build remote_daemon
 
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "github.com/ellcrys/docker/libcontainerd"
 
 import (
 	"os"

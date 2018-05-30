@@ -1,12 +1,12 @@
-package network // import "github.com/docker/docker/integration/network"
+package network // import "github.com/ellcrys/docker/integration/network"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/internal/test/request"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/internal/test/request"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 	"github.com/gotestyourself/gotestyourself/skip"

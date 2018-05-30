@@ -1,4 +1,4 @@
-package middleware // import "github.com/docker/docker/api/server/middleware"
+package middleware // import "github.com/ellcrys/docker/api/server/middleware"
 
 import (
 	"context"

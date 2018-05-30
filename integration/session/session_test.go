@@ -1,10 +1,10 @@
-package session // import "github.com/docker/docker/integration/session"
+package session // import "github.com/ellcrys/docker/integration/session"
 
 import (
 	"net/http"
 	"testing"
 
-	req "github.com/docker/docker/internal/test/request"
+	req "github.com/ellcrys/docker/internal/test/request"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 	"github.com/gotestyourself/gotestyourself/skip"

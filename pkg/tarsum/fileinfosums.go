@@ -1,4 +1,4 @@
-package tarsum // import "github.com/docker/docker/pkg/tarsum"
+package tarsum // import "github.com/ellcrys/docker/pkg/tarsum"
 
 import (
 	"runtime"

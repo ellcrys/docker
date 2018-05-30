@@ -1,10 +1,10 @@
-package store // import "github.com/docker/docker/volume/store"
+package store // import "github.com/ellcrys/docker/volume/store"
 
 import (
 	"encoding/json"
 
 	"github.com/boltdb/bolt"
-	"github.com/docker/docker/errdefs"
+	"github.com/ellcrys/docker/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

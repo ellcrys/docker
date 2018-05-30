@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
-	apitypes "github.com/docker/docker/api/types"
+	apitypes "github.com/ellcrys/docker/api/types"
 	lncluster "github.com/docker/libnetwork/cluster"
 )
 
-// Cluster is the interface for github.com/docker/docker/daemon/cluster.(*Cluster).
+// Cluster is the interface for github.com/ellcrys/docker/daemon/cluster.(*Cluster).
 type Cluster interface {
 	ClusterStatus
 	NetworkManager

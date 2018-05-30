@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/ellcrys/docker/container"
 
 import (
 	"fmt"
@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/logger/jsonfilelog"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/ellcrys/docker/api/types/container"
+	swarmtypes "github.com/ellcrys/docker/api/types/swarm"
+	"github.com/ellcrys/docker/daemon/logger/jsonfilelog"
+	"github.com/ellcrys/docker/pkg/signal"
 	"github.com/gotestyourself/gotestyourself/assert"
 )
 

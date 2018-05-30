@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/docker/docker/daemon/config"
+	"github.com/ellcrys/docker/daemon/config"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 	"github.com/gotestyourself/gotestyourself/fs"

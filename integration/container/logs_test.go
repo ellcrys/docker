@@ -1,14 +1,14 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/ellcrys/docker/integration/container"
 
 import (
 	"context"
 	"io/ioutil"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/integration/internal/container"
+	"github.com/ellcrys/docker/internal/test/request"
+	"github.com/ellcrys/docker/pkg/stdcopy"
 	"github.com/gotestyourself/gotestyourself/assert"
 	"github.com/gotestyourself/gotestyourself/skip"
 )

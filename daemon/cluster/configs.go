@@ -1,11 +1,11 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/ellcrys/docker/daemon/cluster"
 
 import (
 	"context"
 
-	apitypes "github.com/docker/docker/api/types"
-	types "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/convert"
+	apitypes "github.com/ellcrys/docker/api/types"
+	types "github.com/ellcrys/docker/api/types/swarm"
+	"github.com/ellcrys/docker/daemon/cluster/convert"
 	swarmapi "github.com/docker/swarmkit/api"
 )
 

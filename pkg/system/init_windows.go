@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/pkg/system"
+package system // import "github.com/ellcrys/docker/pkg/system"
 
 // lcowSupported determines if Linux Containers on Windows are supported.
 var lcowSupported = false

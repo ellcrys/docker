@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/ellcrys/docker/daemon/images"
 
 import (
 	"fmt"
@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/errdefs"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/pkg/stringid"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/pkg/errors"
 )
 

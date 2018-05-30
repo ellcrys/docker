@@ -1,6 +1,6 @@
 // +build !windows
 
-package listeners // import "github.com/docker/docker/daemon/listeners"
+package listeners // import "github.com/ellcrys/docker/daemon/listeners"
 
 import (
 	"fmt"

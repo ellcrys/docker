@@ -1,4 +1,4 @@
-package jsonmessage // import "github.com/docker/docker/pkg/jsonmessage"
+package jsonmessage // import "github.com/ellcrys/docker/pkg/jsonmessage"
 
 import (
 	"encoding/json"
@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/Nvveen/Gotty"
-	"github.com/docker/docker/pkg/term"
+	"github.com/ellcrys/docker/pkg/term"
 	"github.com/docker/go-units"
 )
 

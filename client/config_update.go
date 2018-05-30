@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/ellcrys/docker/client"
 
 import (
 	"context"
 	"net/url"
 	"strconv"
 
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/ellcrys/docker/api/types/swarm"
 )
 
 // ConfigUpdate attempts to update a Config

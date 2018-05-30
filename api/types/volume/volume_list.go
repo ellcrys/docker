@@ -7,7 +7,7 @@ package volume
 // See hack/generate-swagger-api.sh
 // ----------------------------------------------------------------------------
 
-import "github.com/docker/docker/api/types"
+import "github.com/ellcrys/docker/api/types"
 
 // VolumeListOKBody
 // swagger:model VolumeListOKBody

@@ -1,10 +1,10 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/ellcrys/docker/registry"
 
 import (
 	"net/url"
 
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/docker/docker/errdefs"
+	"github.com/ellcrys/docker/errdefs"
 )
 
 type notFoundError string

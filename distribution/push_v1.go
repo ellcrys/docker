@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/ellcrys/docker/distribution"
 
 import (
 	"context"
@@ -7,16 +7,16 @@ import (
 
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/image/v1"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/registry"
+	"github.com/ellcrys/docker/distribution/metadata"
+	"github.com/ellcrys/docker/dockerversion"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/image/v1"
+	"github.com/ellcrys/docker/layer"
+	"github.com/ellcrys/docker/pkg/ioutils"
+	"github.com/ellcrys/docker/pkg/progress"
+	"github.com/ellcrys/docker/pkg/stringid"
+	"github.com/ellcrys/docker/pkg/system"
+	"github.com/ellcrys/docker/registry"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

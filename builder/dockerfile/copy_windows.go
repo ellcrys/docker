@@ -1,11 +1,11 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/ellcrys/docker/builder/dockerfile"
 
 import (
 	"errors"
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/ellcrys/docker/pkg/idtools"
 )
 
 var pathBlacklist = map[string]bool{

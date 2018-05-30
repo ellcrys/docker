@@ -1,11 +1,11 @@
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "github.com/ellcrys/docker/libcontainerd"
 
 import (
 	"io"
 	"sync"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/ellcrys/docker/pkg/ioutils"
 )
 
 type autoClosingReader struct {

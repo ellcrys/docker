@@ -1,13 +1,13 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/ellcrys/docker/integration/container"
 
 import (
 	"context"
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/integration/internal/container"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 	"github.com/gotestyourself/gotestyourself/skip"

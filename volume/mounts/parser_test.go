@@ -1,4 +1,4 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "github.com/ellcrys/docker/volume/mounts"
 
 import (
 	"io/ioutil"
@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/mount"
+	"github.com/ellcrys/docker/api/types/mount"
 )
 
 type parseMountRawTestSet struct {

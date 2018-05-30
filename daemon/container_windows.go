@@ -1,7 +1,7 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
-	"github.com/docker/docker/container"
+	"github.com/ellcrys/docker/container"
 )
 
 func (daemon *Daemon) saveApparmorConfig(container *container.Container) error {

@@ -1,13 +1,13 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"testing"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	eventtypes "github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/events"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	eventtypes "github.com/ellcrys/docker/api/types/events"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/daemon/events"
 )
 
 func TestLogContainerEventCopyLabels(t *testing.T) {

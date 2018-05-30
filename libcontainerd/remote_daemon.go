@@ -1,6 +1,6 @@
 // +build !windows
 
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "github.com/ellcrys/docker/libcontainerd"
 
 import (
 	"context"
@@ -19,7 +19,7 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/server"
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

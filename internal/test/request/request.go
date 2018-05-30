@@ -1,4 +1,4 @@
-package request // import "github.com/docker/docker/internal/test/request"
+package request // import "github.com/ellcrys/docker/internal/test/request"
 
 import (
 	"context"
@@ -13,11 +13,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test"
-	"github.com/docker/docker/internal/test/environment"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/internal/test"
+	"github.com/ellcrys/docker/internal/test/environment"
+	"github.com/ellcrys/docker/opts"
+	"github.com/ellcrys/docker/pkg/ioutils"
 	"github.com/docker/go-connections/sockets"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/gotestyourself/gotestyourself/assert"

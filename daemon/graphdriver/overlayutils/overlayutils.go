@@ -1,11 +1,11 @@
 // +build linux
 
-package overlayutils // import "github.com/docker/docker/daemon/graphdriver/overlayutils"
+package overlayutils // import "github.com/ellcrys/docker/daemon/graphdriver/overlayutils"
 
 import (
 	"fmt"
 
-	"github.com/docker/docker/daemon/graphdriver"
+	"github.com/ellcrys/docker/daemon/graphdriver"
 )
 
 // ErrDTypeNotSupported denotes that the backing filesystem doesn't support d_type.

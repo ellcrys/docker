@@ -1,16 +1,16 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"fmt"
 	"os"
 	"path/filepath"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/stringid"
+	containertypes "github.com/ellcrys/docker/api/types/container"
+	mounttypes "github.com/ellcrys/docker/api/types/mount"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/sirupsen/logrus"
 )

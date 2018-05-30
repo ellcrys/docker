@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/pkg/parsers/kernel"
 	"github.com/gotestyourself/gotestyourself/assert/cmp"
 	"github.com/gotestyourself/gotestyourself/icmd"
 )

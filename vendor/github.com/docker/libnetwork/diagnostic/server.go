@@ -8,7 +8,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	stackdump "github.com/docker/docker/pkg/signal"
+	stackdump "github.com/ellcrys/docker/pkg/signal"
 	"github.com/docker/libnetwork/common"
 	"github.com/sirupsen/logrus"
 )

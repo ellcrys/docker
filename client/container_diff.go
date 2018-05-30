@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/ellcrys/docker/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/container"
 )
 
 // ContainerDiff shows differences in a container filesystem since it was started.

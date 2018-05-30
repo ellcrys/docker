@@ -1,4 +1,4 @@
-package directory // import "github.com/docker/docker/pkg/directory"
+package directory // import "github.com/ellcrys/docker/pkg/directory"
 
 import (
 	"context"

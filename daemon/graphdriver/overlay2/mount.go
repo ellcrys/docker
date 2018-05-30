@@ -1,6 +1,6 @@
 // +build linux
 
-package overlay2 // import "github.com/docker/docker/daemon/graphdriver/overlay2"
+package overlay2 // import "github.com/ellcrys/docker/daemon/graphdriver/overlay2"
 
 import (
 	"bytes"
@@ -10,7 +10,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/ellcrys/docker/pkg/reexec"
 	"golang.org/x/sys/unix"
 )
 

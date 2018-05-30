@@ -1,11 +1,11 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/ellcrys/docker/image"
 
 import (
 	"fmt"
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/layer"
+	"github.com/ellcrys/docker/layer"
 	"github.com/gotestyourself/gotestyourself/assert"
 	"github.com/gotestyourself/gotestyourself/assert/cmp"
 	"github.com/opencontainers/go-digest"

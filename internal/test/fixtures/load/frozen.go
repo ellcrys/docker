@@ -1,4 +1,4 @@
-package load // import "github.com/docker/docker/internal/test/fixtures/load"
+package load // import "github.com/ellcrys/docker/internal/test/fixtures/load"
 
 import (
 	"bufio"
@@ -10,10 +10,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/term"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/pkg/jsonmessage"
+	"github.com/ellcrys/docker/pkg/term"
 	"github.com/pkg/errors"
 )
 

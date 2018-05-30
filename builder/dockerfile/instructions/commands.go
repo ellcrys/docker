@@ -1,11 +1,11 @@
-package instructions // import "github.com/docker/docker/builder/dockerfile/instructions"
+package instructions // import "github.com/ellcrys/docker/builder/dockerfile/instructions"
 
 import (
 	"errors"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/strslice"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

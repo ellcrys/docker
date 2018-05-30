@@ -1,12 +1,12 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/ellcrys/docker/daemon/graphdriver"
 
 import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/plugin/v2"
+	"github.com/ellcrys/docker/pkg/plugingetter"
+	"github.com/ellcrys/docker/pkg/plugins"
+	"github.com/ellcrys/docker/plugin/v2"
 	"github.com/pkg/errors"
 )
 

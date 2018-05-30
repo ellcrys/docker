@@ -1,4 +1,4 @@
-package v1 // import "github.com/docker/docker/migrate/v1"
+package v1 // import "github.com/ellcrys/docker/migrate/v1"
 
 import (
 	"crypto/rand"
@@ -14,9 +14,9 @@ import (
 	"testing"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	"github.com/ellcrys/docker/distribution/metadata"
+	"github.com/ellcrys/docker/image"
+	"github.com/ellcrys/docker/layer"
 	"github.com/opencontainers/go-digest"
 )
 

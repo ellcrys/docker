@@ -1,4 +1,4 @@
-package testutil // import "github.com/docker/docker/internal/testutil"
+package testutil // import "github.com/ellcrys/docker/internal/testutil"
 
 import (
 	"io"

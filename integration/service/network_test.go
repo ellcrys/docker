@@ -1,13 +1,13 @@
-package service // import "github.com/docker/docker/integration/service"
+package service // import "github.com/ellcrys/docker/integration/service"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/integration/internal/swarm"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/network"
+	"github.com/ellcrys/docker/integration/internal/container"
+	"github.com/ellcrys/docker/integration/internal/swarm"
 	"github.com/gotestyourself/gotestyourself/assert"
 	is "github.com/gotestyourself/gotestyourself/assert/cmp"
 )

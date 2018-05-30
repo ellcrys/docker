@@ -1,6 +1,6 @@
 // +build !linux
 
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/ellcrys/docker/plugin"
 
 import (
 	"context"
@@ -9,8 +9,8 @@ import (
 	"net/http"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/filters"
 )
 
 var errNotSupported = errors.New("plugins are not supported on this platform")

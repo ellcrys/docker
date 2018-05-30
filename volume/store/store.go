@@ -1,4 +1,4 @@
-package store // import "github.com/docker/docker/volume/store"
+package store // import "github.com/ellcrys/docker/volume/store"
 
 import (
 	"net"
@@ -11,10 +11,10 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/boltdb/bolt"
-	"github.com/docker/docker/pkg/locker"
-	"github.com/docker/docker/volume"
-	"github.com/docker/docker/volume/drivers"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"github.com/ellcrys/docker/pkg/locker"
+	"github.com/ellcrys/docker/volume"
+	"github.com/ellcrys/docker/volume/drivers"
+	volumemounts "github.com/ellcrys/docker/volume/mounts"
 	"github.com/sirupsen/logrus"
 )
 

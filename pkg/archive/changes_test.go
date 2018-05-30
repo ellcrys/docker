@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/ellcrys/docker/pkg/archive"
 
 import (
 	"io/ioutil"
@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/gotestyourself/gotestyourself/assert"
 	"github.com/gotestyourself/gotestyourself/skip"
 )
@@ -176,7 +176,7 @@ func TestChangesWithChanges(t *testing.T) {
 	checkChanges(expectedChanges, changes, t)
 }
 
-// See https://github.com/docker/docker/pull/13590
+// See https://github.com/ellcrys/docker/pull/13590
 func TestChangesWithChangesGH13590(t *testing.T) {
 	// TODO Windows. There may be a way of running this, but turning off for now
 	// as createSampleDir uses symlinks.

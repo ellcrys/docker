@@ -1,7 +1,7 @@
-package swarm // import "github.com/docker/docker/api/types/swarm"
+package swarm // import "github.com/ellcrys/docker/api/types/swarm"
 
 import (
-	"github.com/docker/docker/api/types/network"
+	"github.com/ellcrys/docker/api/types/network"
 )
 
 // Endpoint represents an endpoint.

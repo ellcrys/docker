@@ -1,6 +1,6 @@
 // +build !windows
 
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/ellcrys/docker/pkg/chrootarchive"
 
 import (
 	"bytes"
@@ -12,8 +12,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/ellcrys/docker/pkg/archive"
+	"github.com/ellcrys/docker/pkg/reexec"
 )
 
 // untar is the entry-point for docker-untar on re-exec. This is not used on

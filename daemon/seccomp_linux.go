@@ -1,12 +1,12 @@
 // +build linux,seccomp
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"fmt"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/profiles/seccomp"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/profiles/seccomp"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 )

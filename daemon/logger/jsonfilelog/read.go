@@ -1,12 +1,12 @@
-package jsonfilelog // import "github.com/docker/docker/daemon/logger/jsonfilelog"
+package jsonfilelog // import "github.com/ellcrys/docker/daemon/logger/jsonfilelog"
 
 import (
 	"encoding/json"
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/jsonfilelog/jsonlog"
+	"github.com/ellcrys/docker/api/types/backend"
+	"github.com/ellcrys/docker/daemon/logger"
+	"github.com/ellcrys/docker/daemon/logger/jsonfilelog/jsonlog"
 )
 
 const maxJSONDecodeRetry = 20000

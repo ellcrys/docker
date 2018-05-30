@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/ellcrys/docker/daemon/config"
 
 import (
 	"bytes"
@@ -13,11 +13,11 @@ import (
 	"strings"
 	"sync"
 
-	daemondiscovery "github.com/docker/docker/daemon/discovery"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/docker/pkg/discovery"
-	"github.com/docker/docker/registry"
+	daemondiscovery "github.com/ellcrys/docker/daemon/discovery"
+	"github.com/ellcrys/docker/opts"
+	"github.com/ellcrys/docker/pkg/authorization"
+	"github.com/ellcrys/docker/pkg/discovery"
+	"github.com/ellcrys/docker/registry"
 	"github.com/imdario/mergo"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
@@ -367,7 +367,7 @@ func getConflictFreeConfiguration(configFile string, flags *pflag.FlagSet) (*Con
 
 		// Override flag values to make sure the values set in the config file with nullable values, like `false`,
 		// are not overridden by default truthy values from the flags that were not explicitly set.
-		// See https://github.com/docker/docker/issues/20289 for an example.
+		// See https://github.com/ellcrys/docker/issues/20289 for an example.
 		//
 		// TODO: Rewrite configuration logic to avoid same issue with other nullable values, like numbers.
 		namedOptions := make(map[string]interface{})

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/client"
+	"github.com/ellcrys/docker/client"
 )
 
 func system(commands [][]string) error {

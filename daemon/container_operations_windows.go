@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"fmt"
 	"io/ioutil"
 	"os"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/system"
+	"github.com/ellcrys/docker/container"
+	"github.com/ellcrys/docker/pkg/system"
 	"github.com/docker/libnetwork"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

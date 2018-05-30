@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/cli"
+	"github.com/ellcrys/docker/integration-cli/cli/build"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/go-check/check"
 	"github.com/gotestyourself/gotestyourself/icmd"
 )

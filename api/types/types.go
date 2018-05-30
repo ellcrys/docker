@@ -1,4 +1,4 @@
-package types // import "github.com/docker/docker/api/types"
+package types // import "github.com/ellcrys/docker/api/types"
 
 import (
 	"errors"
@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/api/types/filters"
+	"github.com/ellcrys/docker/api/types/mount"
+	"github.com/ellcrys/docker/api/types/network"
+	"github.com/ellcrys/docker/api/types/registry"
+	"github.com/ellcrys/docker/api/types/swarm"
 	"github.com/docker/go-connections/nat"
 )
 

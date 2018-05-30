@@ -1,9 +1,9 @@
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "github.com/ellcrys/docker/libcontainerd"
 
 import (
 	"errors"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/ellcrys/docker/errdefs"
 )
 
 func newNotFoundError(err string) error { return errdefs.NotFound(errors.New(err)) }

@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/ellcrys/docker/integration-cli/checker"
+	"github.com/ellcrys/docker/integration-cli/cli"
+	"github.com/ellcrys/docker/integration-cli/cli/build"
+	"github.com/ellcrys/docker/pkg/stringid"
 	"github.com/go-check/check"
 	"github.com/gotestyourself/gotestyourself/icmd"
 )
@@ -140,7 +140,7 @@ func (s *DockerSuite) TestRmiImgIDForce(c *check.C) {
 	}
 }
 
-// See https://github.com/docker/docker/issues/14116
+// See https://github.com/ellcrys/docker/issues/14116
 func (s *DockerSuite) TestRmiImageIDForceWithRunningContainersAndMultipleTags(c *check.C) {
 	dockerfile := "FROM busybox\nRUN echo test 14116\n"
 	buildImageSuccessfully(c, "test-14116", build.WithDockerfile(dockerfile))

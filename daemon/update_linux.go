@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/ellcrys/docker/daemon"
 
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/libcontainerd"
+	"github.com/ellcrys/docker/api/types/container"
+	"github.com/ellcrys/docker/libcontainerd"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

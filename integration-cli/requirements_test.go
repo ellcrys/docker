@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/requirement"
-	"github.com/docker/docker/internal/test/registry"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/swarm"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/client"
+	"github.com/ellcrys/docker/integration-cli/requirement"
+	"github.com/ellcrys/docker/internal/test/registry"
 )
 
 func ArchitectureIsNot(arch string) bool {

@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/internal/test/registry"
+package registry // import "github.com/ellcrys/docker/internal/test/registry"
 
 import (
 	"net/http"
@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/internal/test"
+	"github.com/ellcrys/docker/internal/test"
 )
 
 type handlerFunc func(w http.ResponseWriter, r *http.Request)

@@ -1,13 +1,13 @@
 // +build linux
 
-package vfs // import "github.com/docker/docker/daemon/graphdriver/vfs"
+package vfs // import "github.com/ellcrys/docker/daemon/graphdriver/vfs"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/daemon/graphdriver/graphtest"
+	"github.com/ellcrys/docker/daemon/graphdriver/graphtest"
 
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/ellcrys/docker/pkg/reexec"
 )
 
 func init() {

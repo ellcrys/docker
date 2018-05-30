@@ -1,10 +1,10 @@
-package environment // import "github.com/docker/docker/integration-cli/environment"
+package environment // import "github.com/ellcrys/docker/integration-cli/environment"
 
 import (
 	"os"
 	"os/exec"
 
-	"github.com/docker/docker/internal/test/environment"
+	"github.com/ellcrys/docker/internal/test/environment"
 )
 
 var (

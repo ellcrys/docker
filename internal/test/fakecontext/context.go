@@ -1,4 +1,4 @@
-package fakecontext // import "github.com/docker/docker/internal/test/fakecontext"
+package fakecontext // import "github.com/ellcrys/docker/internal/test/fakecontext"
 
 import (
 	"bytes"
@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/internal/test"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/ellcrys/docker/internal/test"
+	"github.com/ellcrys/docker/pkg/archive"
 )
 
 type testingT interface {

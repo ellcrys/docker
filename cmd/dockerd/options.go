@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	cliconfig "github.com/docker/docker/cli/config"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/opts"
+	cliconfig "github.com/ellcrys/docker/cli/config"
+	"github.com/ellcrys/docker/daemon/config"
+	"github.com/ellcrys/docker/opts"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"

@@ -1,10 +1,10 @@
-package backend // import "github.com/docker/docker/api/types/backend"
+package backend // import "github.com/ellcrys/docker/api/types/backend"
 
 import (
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/pkg/streamformatter"
 )
 
 // PullOption defines different modes for accessing images

@@ -1,6 +1,6 @@
 // +build linux
 
-package devmapper // import "github.com/docker/docker/daemon/graphdriver/devmapper"
+package devmapper // import "github.com/ellcrys/docker/daemon/graphdriver/devmapper"
 
 import (
 	"fmt"
@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/graphtest"
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/ellcrys/docker/daemon/graphdriver"
+	"github.com/ellcrys/docker/daemon/graphdriver/graphtest"
+	"github.com/ellcrys/docker/pkg/parsers/kernel"
 	"golang.org/x/sys/unix"
 )
 

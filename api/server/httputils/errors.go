@@ -1,12 +1,12 @@
-package httputils // import "github.com/docker/docker/api/server/httputils"
+package httputils // import "github.com/ellcrys/docker/api/server/httputils"
 
 import (
 	"fmt"
 	"net/http"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
+	"github.com/ellcrys/docker/api/types"
+	"github.com/ellcrys/docker/api/types/versions"
+	"github.com/ellcrys/docker/errdefs"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
